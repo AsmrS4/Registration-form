@@ -42,11 +42,21 @@
     margin: 20px 0 auto;
 }
 
-.reg_form .create_bttn{
+.create_bttn{
     position: absolute;
     min-width: 300px;
     height: 40px;
     margin: 40px;
     border-radius: 10px;
     bottom: 0;
+    right: 0;
+    left: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+
+.create_bttn:hover{
+    background-color: gold;
+    color: aliceblue;
 }

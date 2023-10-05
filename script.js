@@ -1,0 +1,1 @@
+const CREATE_BTN = document.getElementById("createB");
