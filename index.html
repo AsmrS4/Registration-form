@@ -8,15 +8,37 @@
     <title>Simple Registration From</title>
 </head>
 <body>
-    <div class="background">
-        <div class="reg_body">
-            <h1>Create Account</h1>
-            <div class="reg_form">
-                <input class="input_field" type="text" placeholder="Name">
-                <input class="input_field" type="email" placeholder="Email">
-                <input class="input_field" type="password" placeholder="Password">
-                <button id="createB" class="create_bttn">Create</button>
+    <div class="registration">
+        <div class="container">
+            <div class="registration-form">
+                <div class="title">Registration</div>
+                <div class="registration-fields">
+                    <div class="field">
+                        <span>Fullname</span>
+                        <input name="fullName" placeholder="Write here your fullname">
+                    </div>
+                    <div class="field">
+                        <span>Email</span>
+                        <input name="email" placeholder="Write here your email">
+                    </div>
+                    <div class="field">
+                        <span>Password</span>
+                        <input name="password">
+                    </div>
+                    <div class="field">
+                        <span>Confirm password</span>
+                        <input name="password">
+                    </div>
+                    <div class="field">
+                        <span>Birthdate</span>
+                        <input name="birthdate" type="date">
+                    </div>
+                </div>
+                <div class="registration-btn">
+                    <button class="button">Register</button>
+                </div>
             </div>
+            <img class="background-image" src="" alt="background">
         </div>
     </div>
     <script src="./script.js"></script>
