@@ -10,9 +10,9 @@
 <body>
     <div class="registration">
         <div class="container">
-            <div class="registration-form first">
+            <div class="registration-form" id="first-form">
                 <div class="title">Registration</div>
-                <div class="registration-form">
+                <div class="registration-fields">
                     <div class="field">
                         <span>Email</span>
                         <input name="email">
@@ -30,9 +30,9 @@
                     <button class="button" name="next-btn">Next</button>
                 </div>
             </div>
-            <div class="registration-form second">
+            <div class="registration-form" id="second-form">
                 <div class="title">Personal Information</div>
-                <div class="registration-form">
+                <div class="registration-fields">
                     <div class="field">
                         <span>Fullname</span>
                         <input name="fullName">
@@ -46,11 +46,12 @@
                         <input name="birthdate" type="date">
                     </div>
                 </div>
+                
                 <div class="registration-btn">
+                    <button class="button" name="back-btn">Back</button>
                     <button class="button" name="register-btn">Register</button>
                 </div>
             </div>
-            <img class="background-image" src="" alt="background">
         </div>
     </div>
     <script src="./script.js"></script>
