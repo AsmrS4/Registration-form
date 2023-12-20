@@ -8,9 +8,9 @@
     <title>Simple Registration From</title>
 </head>
 <body>
-    <div class="registration">
-        <div class="container">
-            <div class="registration-form" id="first-form">
+    <div class="container">
+        <form  action="#" method="post">
+            <div class="registration-form first" id="first-form">
                 <div class="title">Registration</div>
                 <div class="registration-fields">
                     <div class="field">
@@ -19,18 +19,18 @@
                     </div>
                     <div class="field">
                         <span>Password</span>
-                        <input name="password">
+                        <input type="password" name="password">
                     </div>
                     <div class="field">
                         <span>Confirm password</span>
-                        <input name="password">
+                        <input type="password" name="confirm-password">
                     </div>
                 </div>
                 <div class="registration-btn">
-                    <button class="button" name="next-btn">Next</button>
+                    <button type="button" class="button" name="next-btn">Next</button>
                 </div>
             </div>
-            <div class="registration-form" id="second-form">
+            <div class="registration-form second" id="second-form">
                 <div class="title">Personal Information</div>
                 <div class="registration-fields">
                     <div class="field">
@@ -48,12 +48,13 @@
                 </div>
                 
                 <div class="registration-btn">
-                    <button class="button" name="back-btn">Back</button>
-                    <button class="button" name="register-btn">Register</button>
+                    <button type="button" class="button" name="back-btn">Back</button>
+                    <button type="button" class="button" name="register-btn">Register</button>
                 </div>
             </div>
-        </div>
-    </div>
-    <script src="./script.js"></script>
+        </form>
+    </div>  
+    <script defer type="module" src="./script.js"></script>
+    
 </body>
 </html>
